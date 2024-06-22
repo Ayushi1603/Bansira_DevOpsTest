@@ -6,7 +6,7 @@ Clone Node.js "Hello World" Application
 
 Start off by cloning the Node.js "Hello World" application repository from GitHub: **git clone https://github.com/johnpapa/node-hello.git**
 
-Navigate to the Application Directory:Navigate yourself to the cloned repository; 
+Navigate to the Application Directory: Navigate yourself to the cloned repository; 
 cd node-hello
 
 **Create Multi-Stage Dockerfile:** 
@@ -20,6 +20,3 @@ Ensure logging into your account before pushing an image with this command “do
 docker push ayushi0316/node_hello:latest
 
 Your newly built, pushed, deployed, used in applications is now ready on ayushi0316/node_hello:latest.
-
-**Summary**
-From this document, you have been able to clone a Node.js Hello World application created a multi-stage DOCKERFILE built Docker image and pushed it into DOCKERHUB.
